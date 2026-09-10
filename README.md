@@ -160,9 +160,9 @@ Timing analysis run on the Spartan-7 (`xc7s50csga324-1`) FPGA demonstrates zero 
 
 Using the positive setup slack ($WNS = 8.744\text{ ns}$) under a $10.000\text{ ns}$ target clock period, the maximum propagation delay across the critical path ($T_{\text{prop\_max}}$) is:
 
-$$T_{\text{prop\_max}} = T_{\text{clk}} - \text{WNS} = 10.000\text{ ns} - 8.744\text{ ns} = 1.256\text{ ns}$$
+$$T_{\mathrm{prop,max}} = T_{\mathrm{clk}} - \mathrm{WNS} = 10.000\text{ ns} - 8.744\text{ ns} = 1.256\text{ ns}$$
 
-$$F_{\max} = \frac{1}{T_{\text{prop\_max}}} = \frac{1}{1.256\text{ ns}} \approx 796.18\text{ MHz}$$
+$$F_{\mathrm{max}} = \frac{1}{T_{\mathrm{prop,max}}} = \frac{1}{1.256\text{ ns}} \approx 796.18\text{ MHz}$$
 
 This high performance potential stems from the low logic depth between LFSR register stages (a single `LUT2` propagation delay).
 

@@ -158,7 +158,7 @@ Timing analysis run on the Spartan-7 (`xc7s50csga324-1`) FPGA demonstrates zero 
 
 ### Maximum Operating Frequency Calculation
 
-Using the positive setup slack ($WNS = 8.744\text{ ns}$) under a $10.000\text{ ns}$ target clock period, the maximum propagation delay across the critical path ($T_{\text{prop\_max}}$) is:
+Using the positive setup slack ($WNS = 8.744\text{ ns}$) under a $10.000\text{ ns}$ target clock period, the maximum propagation delay across the critical path ($T_{\mathrm{prop,max}}$) is:
 
 $$T_{\mathrm{prop,max}} = T_{\mathrm{clk}} - \mathrm{WNS} = 10.000\text{ ns} - 8.744\text{ ns} = 1.256\text{ ns}$$
 
